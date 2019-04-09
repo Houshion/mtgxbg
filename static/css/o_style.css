@@ -1,0 +1,357 @@
+* {
+  /* font-family: "微软雅黑" !important; */
+  /* font-size: 14px !important; */
+}
+
+img.icon {
+  display: block;
+  padding: 5px;
+}
+
+.h100 {
+  height: 100%;
+}
+
+/** 字体颜色 **/
+.c000 {
+  color: #000000;
+}
+
+.cfff {
+  color: #ffffff;
+}
+
+.c333 {
+  color: #333333;
+}
+
+.c666 {
+  color: #666666;
+}
+
+.c999 {
+  color: #999999;
+}
+
+.cbbb {
+  color: #bbbbbb;
+}
+
+.cccc {
+  color: #cccccc;
+}
+
+.orange {
+  color: orange;
+}
+
+.cmain {
+  color: #03bdeb;
+}
+
+.cred {
+  color: #ff0000;
+}
+
+/** 背景颜色 **/
+.bfff {
+  background: #ffffff;
+}
+
+.b333 {
+  background: #333333;
+}
+
+.b666 {
+  background: #666666;
+}
+
+.b999 {
+  background: #999999;
+}
+
+.bccc {
+  background: #cccccc;
+}
+
+.bmain {
+  background: #03bdeb;
+}
+
+.bf5 {
+  background: #f5f5f5;
+}
+
+/** 按钮样式 **/
+.mainBtn {
+  width: 90%;
+  text-align: center;
+  border-radius: 30px;
+  background: #03bdeb;
+  color: #ffffff;
+  margin: 50px auto 0;
+  padding: 10px 0;
+}
+
+.mainBtn1 {
+  width: 40%;
+  text-align: center;
+  border-radius: 30px;
+  border: #03bdeb 1px solid;
+  color: #03bdeb;
+  margin: 20px auto 0;
+  padding: 10px 0;
+}
+
+footer .btn {
+  width: 50%;
+  border-radius: 0;
+  margin: 0;
+  padding: 0;
+  height: 40px;
+  border: none;
+}
+
+/** title标题样式 **/
+.title {
+  text-align: left;
+}
+
+.mainTitle {
+  text-indent: 10px;
+}
+
+.mainTitle::before {
+  content: " ";
+  width: 5px;
+  height: 15px;
+  border-radius: 5px;
+  position: absolute;
+  background: #03bdeb;
+  margin: 2px 0 0 -10px;
+}
+
+/** map.vue **/
+#tMap {
+  height: 100%;
+}
+
+#tMap .titleBox {
+  z-index: 9;
+  position: relative;
+  top: 10px;
+  padding: 10px;
+  margin: 0 15px;
+  background: #ffffff;
+  border-radius: 5px;
+}
+
+#tMap .operation {
+  z-index: 9;
+  position: absolute;
+  bottom: 10px;
+  padding: 10px;
+  margin: 0 15px;
+}
+
+#tMap .smnoprint {
+  display: none !important;
+}
+
+/** feedback.vue **/
+#feedback #content {
+  width: 100%;
+  border: none;
+}
+
+/** index.vue **/
+#index .boxes {
+  background: #dddddd;
+}
+
+#index .boxList {
+  width: 23%;
+  height: 70px;
+  font-size: 18px !important;
+  font-weight: bold;
+  background: #ffffff;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  margin-right: 2%;
+}
+
+#index .boxList0 {
+  color: #999999;
+}
+
+#index .boxList1 {
+  color: #03bdeb;
+}
+
+#index .boxList2 {
+  background: #03bdeb;
+  color: #ffffff;
+}
+
+/** pay.vue **/
+#pay .msgBoxShadow {
+  box-shadow: 0 0 10px 1px#cccccc
+}
+
+#pay .boxList {
+  background: linear-gradient(to right, #48a2ee, #03bdeb);
+  color: #ffffff;
+  width: 80px;
+  height: 80px;
+  font-size: 18px !important;
+  font-weight: bold;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+#pay .alertImg {
+  width: 18px;
+  height: 18px;
+  display: block;
+}
+
+/** center.vue **/
+#center .headBGImg img {
+  display: block;
+  /* height: 220px; */
+  /* background: url("../../src/assets/bg.png") no-repeat; */
+  /* background-size: 100%; */
+}
+
+#center .headImg {
+  position: absolute;
+  top: 50px;
+  width: 100%;
+}
+
+#center .headImg img {
+  height: 100px;
+  width: 100px;
+  background: #ffffff;
+  padding: 3px;
+  border-radius: 50%;
+}
+
+#center .listBox img {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+#center .serverList .img {
+  width: 45px;
+  height: 45px;
+}
+
+#center .serverList img.icons {
+  max-height: 45px;
+  max-width: 100%;
+  display: block;
+}
+
+/** centerInfo.vue **/
+#centerInfo .head {
+  padding: 10px 15px;
+}
+
+#centerInfo .head .headImg {
+  width: 55px;
+  height: 55px;
+}
+
+#centerInfo .head .headImg img {
+  border-radius: 50%;
+}
+
+/** binding.vue **/
+#binding .input {
+  width: 70%;
+  padding: 10px 5%;
+}
+
+#binding .input .img {
+  width: 10%;
+  max-width: 15px;
+  padding: 5px;
+}
+
+#binding .input img.icon {
+  padding: 0;
+}
+
+#binding .input input {
+  border: none;
+  height: 30px;
+}
+
+#binding .mainBtn {
+  width: 80%;
+  margin: 0;
+}
+
+#binding .getCode {
+  color: #03bdeb;
+}
+
+/** wallet.vue **/
+#wallet .weui-cells {
+  margin-top: 0 !important;
+}
+
+#wallet .weui-cells__title {
+  padding: 10px;
+  margin: 0;
+  background: #fbf9fe;
+}
+
+#wallet .bg img {
+  width: 100%;
+  max-height: 270px;
+}
+
+/** recharge.vue **/
+#recharge .moneyNum {
+  border: none;
+  height: 40px;
+  width: 100%;
+}
+
+/** order **/
+.mark .icon {
+  width: 20px;
+  height: 20px;
+}
+
+/** orderDetail.vue **/
+#orderDetail .icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+/** about.vue **/
+#about .phone .icon {
+  width: 20px;
+  height: 20px;
+}
+
+#about .phone a {
+  color: #000000;
+  width: auto;
+}
+
+#about .logo {
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  margin: auto;
+}
+
+#about .logo img {
+  border-radius: 50%;
+}
